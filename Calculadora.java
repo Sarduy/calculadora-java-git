@@ -1,4 +1,5 @@
 // Versión 1.0 - Práctica de Entornos de Desarrollo
+// Ejercicio de Git
 import java.util.Scanner;
 
 public class Calculadora {
