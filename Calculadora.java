@@ -44,6 +44,14 @@ public class Calculadora {
                         System.out.println("Error: No se puede dividir entre cero.");
                     }
                 }
+                case 5 -> {
+                    System.out.print("Ingresa la base: ");
+                    double base = scanner.nextDouble();
+                    System.out.print("Ingresa el exponente: ");
+                    double exponente = scanner.nextDouble();
+                    resultado = Math.pow(base, exponente);
+                    System.out.println("Resultado: " + base + " ^ " + exponente + " = " + resultado);
+                }
                 default -> System.out.println("Opción no válida.");
             }
         } // Aquí finaliza el bloque 'try' y el scanner se cierra solo, ya no hace falta "scanner.close()"
