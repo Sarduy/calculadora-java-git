@@ -1,3 +1,4 @@
+
 // Versión 1.0 - Práctica de Entornos de Desarrollo
 // Ejercicio De GIT
 import java.util.Scanner;
@@ -9,7 +10,7 @@ public class Calculadora {
         try (Scanner scanner = new Scanner(System.in)) {
             double num1, num2 = 0, resultado;
             int operacion;
-            System.out.println("=== CALCULADORA BÁSICA EN JAVA Conflicto con otra rama ===");
+            System.out.println("=== CALCULADORA BÁSICA EN JAVA Saludos ===");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
@@ -63,6 +64,7 @@ public class Calculadora {
                 }
                 default -> System.out.println("Opción no válida.");
             }
-        } // Aquí finaliza el bloque 'try' y el scanner se cierra solo, ya no hace falta "scanner.close()"
+        } // Aquí finaliza el bloque 'try' y el scanner se cierra solo, ya no hace falta
+          // "scanner.close()"
     }
 }
